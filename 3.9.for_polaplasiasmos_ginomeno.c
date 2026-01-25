@@ -1,17 +1,19 @@
 #include <stdio.h>
-//PROSTHESI
+
 int main() {
-    int i,sum,x,prod;
-    sum = 0;
+    //POLLAPLASIASMOS
+    int i , prod,x;
+
+    prod = 1;
 
     for ( i = 0; i < 5; i++)
     {
         printf("\nEisagete ton %do arithmo: ",i+1);
         scanf("%d",&x);
-        sum+=x;
+        prod*=x;
     }
     
-    printf("\n\nTo athroisma twn arithmwn einai: %d",sum);
+    printf("\n\nTo ginomeno twn arithmwn einai: %d",prod);
 
     return 0;
 }
